@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
@@ -85,7 +87,7 @@ if (existingConfig) {
       if (answers.overwrite) {
         buildConfig();
       } else {
-        console.log('Goodbye!');
+        console.log('Goodbye! 👋');
       }
     });
 } else {
