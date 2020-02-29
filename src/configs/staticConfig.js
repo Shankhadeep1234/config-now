@@ -10,7 +10,7 @@ async function staticConfig(config) {
     {
       type: 'text',
       name: 'directory',
-      message: 'What folder would you like to deploy? 🔎',
+      message: 'What folder would you like to deploy?',
       default: '.'
     }
   ]);

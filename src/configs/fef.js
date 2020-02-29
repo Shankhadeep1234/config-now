@@ -30,20 +30,20 @@ async function fef(config, defaultBuild = 'dist') {
     {
       type: 'text',
       name: 'directory',
-      message: 'What is the build directory? 🔍',
+      message: 'What is the build directory?',
       default: defaultBuild
     },
     {
       type: 'confirm',
       name: 'addBuildScript',
       message:
-        'Do you want to add/update a "now-build" script in your package.json? 📦',
+        'Do you want to add/update a "now-build" script in your package.json?',
       default: true
     },
     {
       type: 'text',
       name: 'buildScript',
-      message: 'What is the build command? 💐',
+      message: 'What is the build command?',
       default: buildScript,
       when: a => a.addBuildScript
     }

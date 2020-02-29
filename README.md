@@ -17,3 +17,5 @@ config-now
 ## Example
 
 ![static-example](images/Screenshot1.png)
+
+![static-example](images/Screenshot2.png)
