@@ -1,0 +1,15 @@
+{
+  "name": "config-now",
+  "version": "1.0.0",
+  "description": "A CLI to generate now.sh configuration file",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/"
+  },
+  "keywords": [],
+  "author": "Shankhadeep Bhadra (https://github.com/Shankhadeep1234)",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^7.0.5"
+  }
+}
