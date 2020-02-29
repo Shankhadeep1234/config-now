@@ -87,7 +87,7 @@ if (existingConfig) {
       if (answers.overwrite) {
         buildConfig();
       } else {
-        console.log('Goodbye! 👋');
+        console.log('Goodbye!');
       }
     });
 } else {
