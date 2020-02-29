@@ -16,6 +16,6 @@ config-now
 
 ## Example
 
-![static-example](images/Screenshot1.png)
+![static-example](https://i.imgur.com/N1dAYxf.png)
 
-![static-example](images/Screenshot2.png)
+![static-example](https://i.imgur.com/2NUepAl.png)
